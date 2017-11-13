@@ -8,4 +8,4 @@ $base_datos="recetas";
 $descriptor=mysqli_connect($servidor,$usuario,$pass,$base_datos)
 or die("Imposible conectar");
 ?>
-Conexión establecida
+<h1>Recetas de cocina española</h1>
