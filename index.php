@@ -14,6 +14,12 @@ or die("Imposible conectar");
 <head>
 	<meta charset="utf-8">
 	<title>Recetas</title>
+	<style>
+	   h1{color:red; padding:5px; border:2px yellow solid;}
+	   table{border:2px green solid;}
+	   th{background-color:red; font-weight:bold;}
+	   td{padding:5px;}
+	</style>
 </head>
 <body>
     <h1>Recetas de cocina española</h1>
