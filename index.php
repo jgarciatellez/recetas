@@ -11,6 +11,7 @@ or die("Imposible conectar");
 <h1>Recetas de cocina española</h1>
 
 <?php
+// Obtenemos la lista de recetas de la base de datos
 $consulta=mysqli_query($descriptor,"SELECT * FROM recetas");
 $recetas=mysqli_fetch_all($consulta,MYSQLI_ASSOC);
 ?>
